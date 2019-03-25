@@ -15,9 +15,10 @@
                 <strike><?= $task->description; ?></strike>
             <?php else: ?>
             <?= $task->description; ?>
-        <?php endif; ?>
+            <?php endif; ?>
         </li>
         <?php endforeach; ?>
     </ul>
 </body>
+</head>
 </html>
